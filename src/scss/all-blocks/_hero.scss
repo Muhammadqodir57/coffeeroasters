@@ -1,0 +1,59 @@
+//===================================== HERO START =====================================//
+
+.hero {
+    position: relative;
+    width: 1240px;
+    height: 600px;
+    margin-bottom: 166px;
+
+    img {
+        position: absolute;
+    }
+
+    &-box {
+        position: absolute;
+        padding: 117px 0px 0px 85px;
+
+        h1 {
+            width: 493px;
+            color: #FEFCF7;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 72px;
+            margin-bottom: 32px;
+        }
+
+        p {
+            width: 445px;
+            color: #FEFCF7;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            margin-bottom: 56px;
+        }
+
+        a {
+            color: #FEFCF7;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 25px;
+            padding: 15px 31px;
+            border-radius: 6px;
+            background: #0E8784;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &:active {
+                opacity: 0.3;
+            }
+        }
+    }
+}
+
+//===================================== HERO END =====================================//

@@ -1,0 +1,35 @@
+//===================================== HERO2 START=====================================//
+
+.hero2 {
+    margin: 0 auto;
+    width: 100%;
+    height: 450px;
+    background-image: url("../../../src/assets/img/hero2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 168px;
+
+    &-box {
+        padding: 137px 0px 0px 85px;
+
+        h1 {
+            color: #FEFCF7;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            width: 445px;
+            color: #FEFCF7;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}
+
+//===================================== HERO2 END =====================================//

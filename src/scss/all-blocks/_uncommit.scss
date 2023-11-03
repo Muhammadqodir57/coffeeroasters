@@ -1,0 +1,42 @@
+//===================================== UNCOMMIT START =====================================//
+
+.uncommit {
+    position: relative;
+    width: 1250px;
+    height: 474px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #2C343E;
+    margin-bottom: 168px;
+
+    &-box {
+        margin-left: 85px;
+
+        h2 {
+            color: #FEFCF7;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 48px;
+            margin-bottom: 32px;
+        }
+
+        p {
+            width: 540px;
+            color: #FEFCF7;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+
+    img {
+        position: absolute;
+        bottom: 93px;
+        right: 72px;
+    }
+}
+
+//===================================== UNCOMMIT END =====================================//

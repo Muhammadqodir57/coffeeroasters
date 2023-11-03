@@ -1,0 +1,95 @@
+//===================================== WORKS START =====================================//
+
+.works {
+    margin-left: 80px;
+    margin-bottom: 200px;
+
+    h2 {
+        color: #83888F;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin-bottom: 80px;
+    }
+
+    &-box {
+        position: relative;
+        width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 67px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 760px;
+            height: 1px;
+            left: 10px;
+            background-color: #FDD6BA;
+        }
+
+        img {
+            position: relative;
+        }
+
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 0 95px;
+        margin-bottom: 64px;
+
+        h3 {
+            color: #FDD6BA;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 72px;
+            margin-bottom: 38px;
+        }
+
+        h4 {
+            width: 255px;
+            color: #333D4B;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 36px;
+            margin-bottom: 42px;
+        }
+
+        p {
+            width: 285px;
+            color: #333D4B;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+
+    a {
+        color: #FEFCF7;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+        padding: 15px 31px;
+        border-radius: 6px;
+        background: #0E8784;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active {
+            opacity: 0.3;
+        }
+    }
+}
+
+//===================================== WORKS END =====================================//

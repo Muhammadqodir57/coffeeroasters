@@ -1,0 +1,55 @@
+//===================================== FOOTER START =====================================//
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 47px 0;
+    background: #2C343E;
+
+    &-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .footer-box {
+            display: flex;
+            align-items: center;
+            gap: 0 102px;
+
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 0 33px;
+
+                a {
+                    color: #83888F;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 15px;
+                    letter-spacing: 0.923px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .footer-img {
+            margin-left: 370px;
+        }
+    }
+}
+
+$small: 300px;
+$medium: 900px;
+.smth {
+  //some CSS
+  @media screen and (max-width: $small) {
+    //do Smth
+  }
+  @media screen and (min-width: $medium) {
+    //do Smth
+  }
+}
+
+//===================================== FOOTER END =====================================//
